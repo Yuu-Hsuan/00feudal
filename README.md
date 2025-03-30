@@ -30,4 +30,4 @@
 * max  score: 10
 
 ## 未來預計
-* 把 `worker_value_loss = tf.clip_by_value(worker_value_loss, -1e6, 1e6)` 改為 ` worker_value_loss = tf.clip_by_value(worker_value_loss, -1e-5, 1e-5)`
+* 把 `worker_value_loss = tf.clip_by_value(worker_value_loss, -1e6, 1e6)` 改為 ` worker_value_loss = tf.clip_by_value(worker_value_loss, -5, 5)`
